@@ -1,4 +1,4 @@
-problem link: https://practice.geeksforgeeks.org/problems/leftmost-and-rightmost-nodes-of-binary-tree/1
+//problem link: https://practice.geeksforgeeks.org/problems/leftmost-and-rightmost-nodes-of-binary-tree/1
 class Tree
 {
     public static void printCorner(Node node)
