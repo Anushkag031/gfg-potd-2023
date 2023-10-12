@@ -1,6 +1,6 @@
 class Solution {
     String mark="$";
-    HashSet<String> subtree=new HashSet<>();
+    HashSet<String> subtree=new HashSet<>(); //duplicacy
     int dupSub(Node root) {
         // code here 
         String str=dup(root);
@@ -16,7 +16,7 @@ String dup(Node root)
     return s.append(mark).toString();
     
     String lstr=dup(root.left);
-    if(lstr.equals("#")) return "#";
+    if(lstr.equals("#")) return "#"; //return id duplicate found
     
      String rstr=dup(root.right);
     if(rstr.equals("#")) return "#";
