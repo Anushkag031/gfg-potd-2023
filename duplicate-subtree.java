@@ -7,6 +7,7 @@ class Solution {
         if(str.equals("#")) return 1;
         else return 0;
     }
+    
 String dup(Node root)
 {
     StringBuilder s=new StringBuilder();
