@@ -1,4 +1,4 @@
-class GfG
+class solution
 {
     ArrayList<Node> al;
     Node buildBalancedTree(Node root) 
