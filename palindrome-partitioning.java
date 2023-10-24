@@ -2,7 +2,7 @@ class Solution{
     static int dp[];
     static int palindromicPartition(String str)
     {
-        // code here
+       
         int n= str.length();
         dp=new int[n];
         Arrays.fill(dp,-1);
